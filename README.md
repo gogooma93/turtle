@@ -26,3 +26,5 @@ Parser Free 모델을 이용한 가상 옷 피팅 앱 서비스 개발
 <img src="https://user-images.githubusercontent.com/99804202/171098885-4cf9ea18-6f19-4f13-9001-a46e39e6e2e8.jpg"  width="180" height="360">
 <img src="https://user-images.githubusercontent.com/99804202/171098869-64a322b0-bbd0-40f6-a917-aa424defed30.jpg"  width="180" height="360">
 </p>
+
+## 4.구현 동영상
