@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gochange_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btn_go_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="4"
+            android:backgroundTint="#FFFFFF"
+            android:padding="0dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/logo_black2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layout_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.15" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.45" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.55" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.85" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.05" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.95" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="찜한 옷"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/textView20"
+                    android:text="바꿀 색"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    app:layout_constraintStart_toStartOf="@id/guideline3"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgv_selected_clothes"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_below="@id/textView20"
+                    android:background="#D5D3D3"
+                    android:elevation="8dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintDimensionRatio="1:1.5"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/textView20"
+                    app:srcCompat="@drawable/cloth_icon_image" />
+
+                <View
+                    android:id="@+id/v_selected_color"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_below="@id/textView20"
+                    android:layout_toRightOf="@id/imgv_selected_clothes"
+                    android:background="#DD5E36"
+                    android:elevation="8dp"
+                    android:outlineAmbientShadowColor="#D5D3D3"
+                    android:scaleType="fitXY"
+                    app:layout_constraintDimensionRatio="1:1.5"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintStart_toStartOf="@id/guideline3"
+                    app:layout_constraintTop_toBottomOf="@id/textView21"/>
+
+                <Button
+                    android:id="@+id/btn_excute_changecolor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgv_selected_clothes"
+                    android:text="색바꾸기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:cornerRadius="0dp"
+                    app:rippleColor="#818181"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgv_selected_clothes"/>
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintDimensionRatio="1:1"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFFFFF"
+                    app:srcCompat="@drawable/ic_baseline_favorite_24"
+                    app:tint="#000000"
+                    app:layout_constraintStart_toStartOf="@id/guideline5"
+                    app:layout_constraintTop_toBottomOf="@id/btn_excute_changecolor"/>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imgv_selected_clothes"
+                    android:layout_marginTop="10dp"
+                    android:text="찜목록"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    app:layout_constraintLeft_toRightOf="@id/imageView10"
+                    app:layout_constraintTop_toBottomOf="@id/btn_excute_changecolor"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerv_like_cloth"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline6"
+                    app:layout_constraintStart_toStartOf="@id/guideline5"
+                    app:layout_constraintTop_toBottomOf="@id/textView22"/>
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintDimensionRatio="1:1"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/ic_baseline_color_lens_24"
+                    android:background="#FFFFFF"
+                    app:tint="#000000"
+                    app:layout_constraintStart_toStartOf="@id/guideline5"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerv_like_cloth"/>
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="색상표"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@id/imageView11"
+                    app:layout_constraintTop_toBottomOf="@id/recyclerv_like_cloth" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView23"
+                    android:layout_marginTop="10dp"
+                    android:text="Red"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/textView23" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView23"
+                    android:layout_marginTop="10dp"
+                    android:text="Green"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintTop_toBottomOf="@id/textView23"
+                    app:layout_constraintStart_toStartOf="@id/guideline2"
+                     />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Blue"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintTop_toBottomOf="@id/textView23"
+                    app:layout_constraintEnd_toStartOf="@id/guideline4"
+                     />
+
+                <EditText
+                    android:id="@+id/etv_red"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="000"
+                    android:textColor="#000000"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="16sp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/textView24" />
+
+                <EditText
+                    android:id="@+id/etv_green"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="000"
+                    android:textColor="#000000"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="16sp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintStart_toStartOf="@id/guideline2"
+                    app:layout_constraintTop_toBottomOf="@id/textView25" />
+
+                <EditText
+                    android:id="@+id/etv_blue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:text="000"
+                    android:textColor="#000000"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="16sp"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="@id/textView26"
+                    app:layout_constraintTop_toBottomOf="@id/textView26" />
+
+                <Button
+                    android:id="@+id/btn_see_color"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="보기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/etv_red"
+                    app:rippleColor="#818181" />
+
+                <Button
+                    android:id="@+id/btn_select_color"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="선택"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="16dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"
+                    app:rippleColor="#818181"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintStart_toStartOf="@id/guideline3"
+                    app:layout_constraintTop_toBottomOf="@id/etv_blue"/>
+
+                <View
+                    android:id="@+id/v_color"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintDimensionRatio="6:1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/btn_see_color" />
+
+                <TextView
+                    android:id="@+id/tv_hex"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/v_color"
+                    android:text="HEX value"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_hex_value"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:text="#000000"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintStart_toStartOf="@id/guideline3"
+                    app:layout_constraintTop_toBottomOf="@id/v_color" />
+
+                <TextView
+                    android:id="@+id/tv_argb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ARGB"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hex"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_argb_value"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="(0,0,0,0)"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:gravity="right"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintStart_toStartOf="@id/guideline3"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hex_value"/>
+
+                <SeekBar
+                    android:id="@+id/sb_red"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:layout_marginTop="10dp"
+                    android:progressTint="#FF0000"
+                    android:thumbTint="#FF0000"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/tv_argb"/>
+
+                <SeekBar
+                    android:id="@+id/sb_green"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:layout_marginTop="10dp"
+                    android:progressTint="#00FF00"
+                    android:thumbTint="#00FF00"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/sb_red"/>
+
+                <SeekBar
+                    android:id="@+id/sb_blue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:layout_marginTop="10dp"
+                    android:progressTint="#0000FF"
+                    android:thumbTint="#0000FF"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"
+                    app:layout_constraintTop_toBottomOf="@id/sb_green"/>
+
+                <TextView
+                    android:id="@+id/tv_alpha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alpha"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/sb_blue"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"/>
+
+                <SeekBar
+                    android:id="@+id/sb_alpha"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:max="255"
+                    android:progress="255"
+                    android:progressTint="#747474"
+                    android:thumbTint="#212020"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/tv_alpha"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintEnd_toEndOf="@id/guideline4"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

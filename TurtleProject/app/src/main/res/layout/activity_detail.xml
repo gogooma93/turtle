@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            app:srcCompat="?attr/homeAsUpIndicator"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btn_go_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="4"
+            android:backgroundTint="#FFFFFF"
+            android:padding="0dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/logo_black2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.05" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.95" />
+
+                <ImageView
+                    android:id="@+id/imgv_cloth"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:padding="4dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher"
+                    app:layout_constraintDimensionRatio="1:1.2"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_clothname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+
+                    android:text="name"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/imgv_cloth" />
+
+                <TextView
+                    android:id="@+id/tv_clothprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="price"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothname" />
+
+                <TextView
+                    android:id="@+id/tv_clothdesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="desc"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothprice" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="색상"
+                    android:textColor="#232323"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothdesc"/>
+
+                <TextView
+                    android:id="@+id/tv_clothcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="4dp"
+                    android:text="color"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@id/textView13"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothdesc"/>
+
+                <TextView
+                    android:id="@+id/tv_clothcolornum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="serialnum"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@id/tv_clothcolor"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothdesc"/>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="상품코드"
+                    android:textColor="#232323"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothcolor"/>
+
+                <TextView
+                    android:id="@+id/tv_clothserialnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="serialnum"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@id/textView14"
+                    app:layout_constraintTop_toBottomOf="@id/tv_clothcolor"/>
+
+                <Button
+                    android:id="@+id/btn_likelist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:backgroundTint="#000000"
+                    android:text="찜하기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"
+                    app:icon="@drawable/ic_baseline_favorite_24"
+                    app:iconPadding="0dp"
+                    app:iconTint="#FFFFFF"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/textView14"
+                    app:rippleColor="#818181" />
+
+                <Button
+                    android:id="@+id/btn_fittingroom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#000000"
+                    android:text="피팅하기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"
+                    app:rippleColor="#818181"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    app:layout_constraintStart_toEndOf="@id/btn_likelist"
+                    app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+                <TextView
+                    android:id="@+id/tv_othercolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="다른색상"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/btn_likelist" />
+
+                <Button
+                    android:id="@+id/btn_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/imgv_cloth"
+                    android:layout_alignBottom="@id/imgv_cloth"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@drawable/shape_for_circle_button"
+                    android:padding="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingBottom="0dp"
+                    app:icon="@drawable/location_icon"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="30dp"
+                    app:iconTint="@color/white"
+                    app:layout_constraintBottom_toBottomOf="@id/imgv_cloth"
+                    app:layout_constraintDimensionRatio="1:1"
+                    app:layout_constraintEnd_toEndOf="@id/imgv_cloth"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerv_other_color"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintEnd_toEndOf="@id/guideline2"
+                    app:layout_constraintStart_toStartOf="@id/guideline1"
+                    app:layout_constraintTop_toBottomOf="@id/tv_othercolor" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

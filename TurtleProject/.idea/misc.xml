@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/cursor_color.xml" value="0.2735" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/custom_ripple_border.xml" value="0.198" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/drawable_vie_focused.xml" value="0.165" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/drwable_view.xml" value="0.165" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_boy_24.xml" value="0.1845" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_east_24.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.3025" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_photo_24.xml" value="0.1845" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_photo_camera_24.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_baseline_photo_camera_back_24.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_outline_add_photo_alternate_24.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_outline_camera_alt_24.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/ic_outline_perm_identity_24.xml" value="0.1845" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/item_color.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/layer_radiobtn_checked.xml" value="0.2555" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/layer_radiobtn_unchecked.xml" value="0.2555" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/layout_border.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/progressbar.xml" value="0.187" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/progressbar_shape.xml" value="0.187" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/selector_button.xml" value="0.165" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/selector_radio_button.xml" value="0.2555" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/selector_radio_text.xml" value="0.2555" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/shape_for_circle_button.xml" value="0.3025" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/shape_for_floating_btn.xml" value="0.1685" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/shape_for_rect_button.xml" value="0.165" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/shape_imgv.xml" value="0.338" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/shape_info_btn.xml" value="0.3375" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/drawable/toast_shape.xml" value="0.187" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/acivity_guide.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activitiy_main1.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_bodyphto.xml" value="0.3134057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_camera.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_change.xml" value="0.1589958158995816" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_changecolor.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_closet.xml" value="0.2726449275362319" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_clothe.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_compose.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_detail.xml" value="0.2490842490842491" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_fitting.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_fittinghome.xml" value="0.25" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_fittingroom.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_fittingsd.xml" value="0.28804347826086957" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_gochange.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_gofitting.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_guide.xml" value="0.21754385964912282" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_home.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_image.xml" value="0.31521739130434784" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_item.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_itemdetail.xml" value="0.14175724637681159" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_main.xml" value="0.210727969348659" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_main_example.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_mypage.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_performance.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_practice.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_shop.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_signup.xml" value="0.30434782608695654" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_splash.xml" value="0.2509057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/activity_sub.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/bottomnav.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/bottomnavigation.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/customrow.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/frag_man.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/frag_woman.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/fragment_shopinfo.xml" value="0.33106884057971014" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_body.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_bodypage.xml" value="0.18996415770609318" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_fitting.xml" value="0.3134057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_fitting_body.xml" value="0.3229166666666667" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_fittingpage.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_items.xml" value="0.2803442028985507" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_itemsdetail.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_likelist.xml" value="0.3229166666666667" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_othercolor.xml" value="0.25181159420289856" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_prefer.xml" value="0.2" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_prefer_c.xml" value="0.1" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_preferpage.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/grid_row_profile.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment1.xml" value="0.19384057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment5.xml" value="0.26721014492753625" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment_closet.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment_fitting.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment_home.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment_mypage.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragment_shop.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/menufragmenthome.xml" value="0.19384057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/p_actionbar.xml" value="0.19384057971014493" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/shopfrag_man.xml" value="0.264" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/shopfrag_woman.xml" value="0.15625" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/layout/toolbar.xml" value="0.22135416666666666" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/menu/bottomnav_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/menu/menu_bottom.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/menu/menu_main.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/menu/p_menu_actionbar.xml" value="0.33177083333333335" />
+        <entry key="..\:/source/androidstudio/TurtleProject/app/src/main/res/xml/network_security_config.xml" value="0.1606962663975782" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

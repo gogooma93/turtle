@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="홈"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/ic_outline_shopping_cart_24"
+        android:title="쇼핑"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/ic_outline_checkroom_24"
+        android:title="피팅룸"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_door_sliding_24"
+        android:title="옷장" />
+    <item
+        android:id="@+id/menu5"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_perm_identity_24"
+        android:title="마이페이지" />
+
+</menu>
