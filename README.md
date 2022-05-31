@@ -20,9 +20,9 @@ Parser Free 모델을 이용한 가상 옷 피팅 앱 서비스 개발
 
 ## 3. 핵심기능 구성
 <p align="left">
-<img src="https://user-images.githubusercontent.com/99804202/171098898-bb4d36e0-3577-41fa-811f-c69aa76a1f75.jpg"  width="160" height="360">
-<img src="https://user-images.githubusercontent.com/99804202/171098892-910a2de0-77c9-45fa-b05e-d19f9ad37726.jpg"  width="160" height="360">
-<img src="https://user-images.githubusercontent.com/99804202/171098919-20fd91ff-f0b8-4eea-982b-d10d7c61b34f.jpg"  width="160" height="360">
-<img src="https://user-images.githubusercontent.com/99804202/171098885-4cf9ea18-6f19-4f13-9001-a46e39e6e2e8.jpg"  width="160" height="360">
-<img src="https://user-images.githubusercontent.com/99804202/171098869-64a322b0-bbd0-40f6-a917-aa424defed30.jpg"  width="160" height="360">
+<img src="https://user-images.githubusercontent.com/99804202/171098898-bb4d36e0-3577-41fa-811f-c69aa76a1f75.jpg"  width="180" height="360">
+<img src="https://user-images.githubusercontent.com/99804202/171098892-910a2de0-77c9-45fa-b05e-d19f9ad37726.jpg"  width="180" height="360">
+<img src="https://user-images.githubusercontent.com/99804202/171098919-20fd91ff-f0b8-4eea-982b-d10d7c61b34f.jpg"  width="180" height="360">
+<img src="https://user-images.githubusercontent.com/99804202/171098885-4cf9ea18-6f19-4f13-9001-a46e39e6e2e8.jpg"  width="180" height="360">
+<img src="https://user-images.githubusercontent.com/99804202/171098869-64a322b0-bbd0-40f6-a917-aa424defed30.jpg"  width="180" height="360">
 </p>
