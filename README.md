@@ -19,4 +19,5 @@ Parser Free 모델을 이용한 가상 옷 피팅 앱 서비스 개발
 7. 사진 관리
 
 ## 3. 핵심기능 구성
-
+<img src="![KakaoTalk_20220515_213757641_03](https://user-images.githubusercontent.com/99804202/171098898-bb4d36e0-3577-41fa-811f-c69aa76a1f75.jpg)
+"  width="700" height="370">
